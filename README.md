@@ -29,7 +29,7 @@ $payloadApprox = new VIESPayload();
 $payloadApprox->setApprox('SK', '1111111111', 'SK', '2222222222'); // countryCode, vatNumber, requesterCountryCode, requesterVatNumber
 
 // request example
-$request = new VIESRequest($payloadSimple);
+$request = new VIESRequest($payloadApprox);
 if($request->getResult()==VIESRequest::OK) // SOAP request succeeded
 {
   $data = $request->getData();
