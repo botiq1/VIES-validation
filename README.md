@@ -1,6 +1,8 @@
 # VIES-validation
 EU VAT number validation using VIES SOAP API.
 
+If you want to be able to prove to a Tax Administration of a Member State that you have checked a given VAT number at a given time, and obtained a given validation reply, please keep this consultation number ($data->requestIdentifier) in your archives. Please note, however, that the confirmation of the validity of a VAT number and of its attribution to a given taxable person is only ONE of the elements of evidence supporting the VAT exemption of intra-community supplies of goods (article 138, paragraph 1 of Council Directive 2006/112/EC) or the non-application of VAT on a supply of services due to its localisation in another Member State.
+
 # Usage
 payloadSimple example
 ```php
